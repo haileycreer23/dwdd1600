@@ -48,7 +48,7 @@ nav li.active a {
     background-color: #BF6341;
         color: #D9C5B4;
 }
-nav a: hover {
+nav a hover {
     color: #fff;
 }
 
@@ -73,10 +73,6 @@ main p
 margin: 0 0 .3rem 0;
 }
 
-main ol {
-    padding .5rem 3vw; 
-    background-color: #efefef;
-}
 
 main dl dt {
     color: #6D733F;
@@ -106,7 +102,7 @@ main address {
     padding: .5rem;
     width: 12.5rem;
     border: 2px solid #BF6341;
-    border-radius: 1rem px;
+    border-radius: 1rem ;
 }
 
 main a {
