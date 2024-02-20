@@ -160,11 +160,11 @@ div.gallery figcaption {
     Margin: .5rem
 }
 
-.myForm Label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+.myForm Label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea, .myForm [type=email] {
     display: block;
 }
 
-.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea {
     border: solid 1px #888;
     padding: .3rem;
     width;250px;

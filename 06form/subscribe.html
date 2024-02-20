@@ -40,34 +40,34 @@
             <legend> Customer Information </legend>
             <label> First Name*<input type="text" name="fname" required></label>
             <label> Last Name*<input type="text" name="lname" required></label>
-              <label> Email*<input type="text" name="email" required></label>
+              <label> Email*<input type="email" name="email" required></label>
             <label> Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
                </fieldset>
             
             <fieldset>
-            <legend> Delivery Method</legend>
+            <legend> Subscription Delivery Methods </legend>
           <label><input type="radio" name="method" value="phone"> Phone Delivery </label>
-                 <label><input type="radio" name="method" value="email"> Email </label>
-                 <label><input type="radio" name="method" value="physical"> Physical copy </label>
+                 <label><input type="radio" name="method" value="email"> Email Delivery </label>
+                 <label><input type="radio" name="method" value="physical"> Physical Copy Delivery </label>
             </fieldset>
             <filedset>
-            <legend>Physical Delivery Options</legend>
-               <label><input type="checkbox" name="porch" value="chosen"> Front Porch</label>
-                <label><input type="checkbox" name="deck" value="chosen"> Back Deck</label>
-                <label><input type="checkbox" name="driveway" value="chosen"> Driveway </label>
+            <legend> Physical Subscription Options </legend>
+               <label><input type="checkbox" name="magazine" value="chosen"> Magazine </label>
+                <label><input type="checkbox" name="newspaper" value="chosen"> News Paper </label>
+                <label><input type="checkbox" name="surprise" value="chosen"> Suprise Me </label>
                 
-               <label> Preferred Physical Delivery Time
+               <label> Packaging preferences
                 <select name="time"> 
                 <option value="none"> Please Select</option>
-                    <option value="morning"> Between 7:00am and 11:00am </option>
-                    <option value="noon"> Between 11:00am and 2:00am </option>
-                    <option value="afternoon"> Between 2:00pm and 5:00pm </option>
-                     <option value="evening"> Between 5:00apm and 8:00pm </option>
+                    <option value="paper"> Paper Bag </option>
+                    <option value="reusable"> Reuasable Bag </option>
+                    <option value="tote"> Tote Bag </option>
+                     <option value="suprise"> Surprise Me </option>
                 </select>
                    </label>
                        </filedset>
          <label>Comments
-                <textarea name="comments"> Please add any special instructions </textarea>
+                <textarea name="comments"> Please add any special notes or comments </textarea>
               </label>
            
         
