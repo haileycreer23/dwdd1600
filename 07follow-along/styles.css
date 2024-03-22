@@ -121,6 +121,12 @@ main a {
     color: #9c3335;
 }
 
+div.angeloGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .angelohero {
     width: 100%;
     margin: 0;
